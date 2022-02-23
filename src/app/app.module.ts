@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 
 import { ModsModule } from './mods/mods.module';
 import { HomeComponent } from './home/home.component';
-import { NotFoundComponent } from './not-found/not-found.component'
+import { NotFoundComponent } from './not-found/not-found.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NotFoundComponent
+    NotFoundComponent,
+
   ],
   imports: [
     BrowserModule,
