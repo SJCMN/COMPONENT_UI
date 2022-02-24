@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ViewsHomeComponent implements OnInit {
 
+  stats: Array<object> = [
+    { value: 22, label: '# of Users'},
+    { value: 900, label: 'Revenue'},
+    { value: 50, label: 'Reviews'}
+  ];
+
   constructor() { }
 
   ngOnInit(): void {

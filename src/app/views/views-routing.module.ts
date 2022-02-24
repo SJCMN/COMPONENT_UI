@@ -7,11 +7,7 @@ import { ViewsHomeComponent } from './views-home/views-home.component';
 const routes: Routes = [
   {
     path: '',
-    component: ViewsHomeComponent,
-    children: [
-      { path: '', component: StatisticsComponent},
-      {}
-    ]
+    component: ViewsHomeComponent
   }
 
 ];
