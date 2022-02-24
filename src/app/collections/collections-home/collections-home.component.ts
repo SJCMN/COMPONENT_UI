@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./collections-home.component.css'],
 })
 export class CollectionsHomeComponent implements OnInit {
+
+  partOfLink = 'hi';
+
   data: Array<object> = [
     { name: 'James', age: 34, job: 'Chump', employed: true },
     { name: 'Jeremiah', age: 44, job: 'Dir of Chumps', employed: true },
