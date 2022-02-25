@@ -11,12 +11,13 @@ import { ItemsComponent } from './items/items.component';
   declarations: [
     ViewsHomeComponent,
     StatisticsComponent,
-    ItemsComponent
+    ItemsComponent,
+    
   ],
   imports: [
     CommonModule,
     ViewsRoutingModule,
-    SharedModule
+    SharedModule,
   ]
 })
 export class ViewsModule { }
