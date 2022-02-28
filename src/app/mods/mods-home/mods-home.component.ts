@@ -8,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class ModsHomeComponent implements OnInit {
 
   modalOpen = false;
+  items: Array<any> = [
+    { title: 'Where can you get the best pizza?', content: 'Obviously it comes from Dominoes'},
+    { title: 'Why is the dog lying in the bed?', content: 'He is most comfortable in the other bed'},
+    { title: 'Why time doe the kids get off the bus?', content: 'When the bus drives by the house and stops'}
+  ];
 
   constructor() { }
 
